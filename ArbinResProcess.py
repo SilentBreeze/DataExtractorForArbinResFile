@@ -75,7 +75,7 @@ def loadData(file):
 
     data = np.array(result)
 
-    return data[data[:, 1].argsort()]
+    return data[data[:, 0].argsort()]
 
 
 def saveData(filepath, filename, data):
