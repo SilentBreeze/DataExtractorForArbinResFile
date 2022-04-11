@@ -250,6 +250,7 @@ def extract_command():
 main = Tk()
 main.title("Arbin数据源文件处理")
 main.geometry("300x100")
+main.resizable(0,0)
 
 Button(main, text="数据绘图", command=plot_command).pack(
     padx=10, pady=10, side=tkinter.TOP, fill=tkinter.BOTH)
